@@ -1,10 +1,10 @@
 
-import Image from "next/image";
 import { Banners } from "@/component/Banners";
-import Category from "@/component/category";
+
 import ProductList from "@/component/ProductList";
 import Productsection from "@/component/Productsection";
 import AboutSection from "@/component/AboutSection";
+import Category from "@/component/Category";
 
 export default function Home() {
   return (
