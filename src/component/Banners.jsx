@@ -35,7 +35,7 @@ export function Banners() {
 
      return (
           <div className=' py-2'>
-               <div className=" mx-auto my-20 ">
+               <div className=" mx-auto mt-20 ">
                     <div>
                          <Carousel
                               plugins={[plugin.current]}
