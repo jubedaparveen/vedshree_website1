@@ -37,14 +37,19 @@ const Productsection = () => {
                                              <textarea style={{ height: '100px' }} className=' w-full px-3 py-2 rounded-sm border border-[#0E2A10]/40 bg-white/20  placeholder:text-[#0E2A10]/40 placeholder:text-sm tracking-widest outline-0' type="text" placeholder='Write here your Current Medical  History...' />
                                         </div>
                                         <div className='my-2  text-center border border-[#0E2A10]/40  bg-[#94b196] cursor-pointer py-2 rounded-full hover:bg-[#87a186] hover:text-[#0E2A10]'>
-                                        <button>Send Message</button>
+                                             <button>Send Message</button>
                                         </div>
-                                        <div className='py-2 flex gap-4 justify-center '>
-                                             <button className='w-10 h-10 rounded-full flex justify-center items-center  border hover:bg-[#87a186] hover:text-[#0E2A10]'> 
-                                                  <IoCall  size={25}/>
-                                             </button>
-                                             <button className='w-10 h-10 rounded-full flex justify-center items-center  border hover:bg-[#87a186] hover:text-[#0E2A10]'>                                 <IoLogoWhatsapp  size={32}/>
-                                             </button>
+                                        <div className='py-2 text-center  '>
+                                             
+                                             <div className='mt-2 flex gap-4 justify-center'>
+                                                  <button className='w-10 h-10 rounded-full flex justify-center items-center  border hover:bg-[#87a186] hover:text-[#0E2A10]'>
+                                                       <IoCall size={25} />
+                                                  </button>
+                                                  <button className='w-10 h-10 rounded-full flex justify-center items-center  border hover:bg-[#87a186] hover:text-[#0E2A10]'>                                 <IoLogoWhatsapp size={32} />
+                                                  </button>
+                                             </div>
+                                             <label className='text-sm text-center '> Call and Whatsapp here</label>
+
                                         </div>
                                    </div>
                               </form>
