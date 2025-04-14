@@ -11,7 +11,7 @@ import { OtherBanners } from './OtherBanners';
 
 const Productsection = () => {
      return (
-          <div className=' max-w-7xl mx-auto border shadow-sm  py-10  my-20 relative'>
+          <div className=' max-w-7xl mx-auto border shadow-sm  py-10  my-20'>
                <div className='flex items-center justify-center gap-6 '>
 
                     <div className='basis-1/2 bg-[#315c0c] p-4'>

@@ -8,7 +8,7 @@ import Category from "@/component/Category";
 
 export default function Home() {
   return (
-    <div className="items-center justify-items-center min-h-screen   border-green-300/10  font-[family-name:var(--font-geist-sans)]  ">
+    <div className="w-full items-center justify-items-center min-h-screen   border-green-300/10  font-[family-name:var(--font-geist-sans)]  ">
       <main className=" ">
        <Banners/>
        <Category />
