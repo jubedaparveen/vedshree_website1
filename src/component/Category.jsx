@@ -68,9 +68,9 @@ const Category = () => {
                     </div>
                     <div>
                          <div className='flex items-center justify-center py-4 px-4 rounded-lg mt-5 '>
-                              <div className='grid grid-cols-3 gap-4'>
+                              <div className='grid grid-cols-1 md:grid-cols-3 md:gap-4'>
                                    {ImagesItems.map((item, index) => (
-                                        <div key={index} className='flex gap-4 flex-col items-center justify-center shadow-sm  border transition duration-300'>
+                                        <div key={index} className='flex md:gap-4 gap-1 md:flex-col flex-row items-center justify-center shadow-sm  border transition duration-300'>
                                              <ProductCarousel/>
                                         </div>
                                    ))}

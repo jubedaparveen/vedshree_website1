@@ -64,8 +64,8 @@ export default function Navbar() {
                {/* left side  */}
                <section ref={animationParent} className="flex justify-between basis-3/4 items-center gap-6">
                     {/* logo */}
-                    <div className="">
-                         <Image src={Logo} alt=" logo" width={150} height={150} className="absolute top-4 rounded-sm z-10 " />
+                    <div className="shadow-[1px_1px_2px_5px_rgba(0,0,0,0.25)]">
+                         <Image src={Logo} alt=" logo" width={150} height={150} className="absolute top-4 rounded-sm z-10 shadow-[1px_1px_2px_5px_rgba(0,0,0,0.25)] " />
                     </div>
                     {isSideMenuOpen && <MobileNav closeSideMenu={closeSideMenu} />}
                     <div className="hidden md:flex items-center gap-6 transition-all ">
